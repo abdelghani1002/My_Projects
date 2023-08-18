@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:cursive ;
+}
+body{
+    background-color: #111;
+    padding: 50px;
+}
+.countainer{
+    width: 400px;
+    height: 480px;
+    background-color: aqua;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 3px 4px 5px 6px aqua;
+}
+.comment{
+    width: 370;
+    height: 60px;
+    padding: 5px;
+    background-color: blueviolet;
+    text-align: center;
+    color: rgb(92, 240, 240);
+    font-size: 2em;
+    box-shadow: 3px 4px 5px 6px blueviolet;
+}
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+#gameover{
+    position: absolute;
+    text-align: center;
+    font-size: 3em;
+    color: blueviolet;
+    top: 135px;
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    background-color:aqua ;
+    display: none;
+}
+.box{
+    width: 120px;
+    height: 120px;
+    margin: 6px;
+    background-color: rgb(21, 255, 0);
+    text-align: center;
+    font-size: 2.5em;
+    cursor: pointer;
+    box-shadow: 2px 3px 4px 5px rgb(234, 51, 251);
+}
+.box:hover{
+    background-color: rgb(3, 135, 43);
+}
